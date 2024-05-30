@@ -10,6 +10,9 @@ body{
 .header-div{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 131.5px;
+    margin-top: 20px;
 
 
 }
@@ -17,9 +20,9 @@ body{
         font-family: "Jacquard 12", system-ui;
         font-weight: 400;
         font-style: normal;
-        font-size: 10em;
+        font-size: 100px;
         color: rgb(10, 222, 152);
-        margin-top:20px;
+        
 }
 
 
@@ -66,4 +69,19 @@ body{
 
 .invisible-imgs{
     visibility: hidden;
+}
+
+.play-button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.play-btn{
+    margin: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5em;
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
